@@ -1,0 +1,83 @@
+/*
+
+Your styles go here!
+
+Hint! You'll probably want to start by styling:
+  * <body>
+  * <article>
+  * <h1>
+  * <img>
+
+I've left some boilerplate below for you.
+
+*/
+
+@import url(http://weloveiconfonts.com/api/?family=zocial);
+
+
+
+/* zocial */
+[class*="zocial-"]:before {
+  font-family: 'zocial', sans-serif;
+  float: left;
+  width: 20%;
+  font-size: 1.2em;
+}
+
+body {
+  width: 100%;
+  max-width: 800px;
+  margin:0 auto;
+  font-family:  medium-content-serif-font,Georgia,Cambria,"Times New Roman",Times,serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 21px;
+  line-height: 1.58;
+  letter-spacing: -.003em;
+  padding-bottom: 1em;
+}
+
+
+article {
+  width: 100%;
+}
+
+h1, h2 {
+  font-family: medium-content-sans-serif-font,"Lucida Grande","Lucida Sans Unicode","Lucida Sans",Geneva,Arial,sans-serif;
+  font-weight: 800;
+}
+
+figure {
+  display: block;
+  margin: 0;
+}
+
+img {
+  max-width: 100%;
+  -webkit-box-shadow: 1px 0px 52px -6px rgba(0,0,0,0.75);
+  -moz-box-shadow: 1px 0px 52px -6px rgba(0,0,0,0.75);
+  box-shadow: 1px 0px 52px -6px rgba(0,0,0,0.75);
+  display: block;
+}
+
+hr.line {
+	height: 10px;
+	border: 0;
+	box-shadow: 0 10px 10px -10px #8c8b8b inset;
+}
+.social {
+  width: 100%;
+  padding-top: 0.5em;
+  padding-bottom: 1em;
+  margin: auto;
+  text-align: left;
+}
+
+@media screen and (max-width: 800px) {
+  p {
+    padding: 1em;
+    font-size: 19px;
+  }
+  h1, h2, footer {
+    padding-left: 0.5em;
+  }
